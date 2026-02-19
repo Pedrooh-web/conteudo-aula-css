@@ -1,0 +1,124 @@
+body {
+    background-color: #f9e5a3;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(60, 81, 140);
+    gap: 10px;
+}
+
+.ex1 div {
+    background-color: rgb(52, 47, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo flex-direction: coluna */
+.ex2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(60, 81, 140);
+    gap: 10px;
+}
+
+.ex2 div {
+    background-color: rgb(52, 47, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ex3 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(60, 81, 140);
+    gap: 10px;
+}
+
+.ex3 div {
+    background-color: rgb(52, 47, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ex4 {
+    display: flex;
+    flex-direction: column reverse;
+    background-color: rgb(77, 67, 165);
+    gap: 10px;
+}
+
+.ex4 div {
+    background-color: rgb(52, 47, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo de Flex=wrap: nowrap*/
+.ex5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: brown;
+    gap: 10px;
+}
+
+.ex5 div {
+    background-color: rgb(86, 78, 69);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo de Flex=wrap: wrap */
+.ex6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: brown;
+    gap: 10px;
+}
+
+.ex6 div {
+    background-color: rgb(86, 78, 69);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Exemplo de Flex=wrap: wrap-reverse */
+.ex7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: brown;
+    gap: 10px;
+}
+
+.ex7 div {
+    background-color: rgb(86, 78, 69);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
