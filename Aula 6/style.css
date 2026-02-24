@@ -1,0 +1,123 @@
+body {
+    background-color: darkblue;
+    color: #f1f1f1;
+}
+/* Exemplo-de-Justify-content: space-evenly */
+.ex1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/* Exemplo-de-Justify-content: space-around */
+
+.ex2 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/* Exemplo-de-Justify-content: space-between */
+
+.ex3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/* Exemplo-de-Justify-content: center */
+
+.ex4 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/* Exemplo-de-Justify-content: Start */
+
+.ex5 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: Start;
+    background-color: aquamarine;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/* Exemplo-de-Justify-content: end */
+
+.ex6 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: end;
+    background-color: aquamarine;
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+.ex7 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: end;
+    background-color: aquamarine;
+}
+
+.ex7 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
